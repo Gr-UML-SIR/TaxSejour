@@ -1,0 +1,12 @@
+
+<div class="row">
+    <div class="col-6 mt-4">
+        <div class='card'>
+            <app-redevable-form></app-redevable-form>
+        </div>
+    </div>
+    <div class="col-6">
+        <h1 class="mt-5 mb-5">Liste des Redevables</h1>
+        <app-pageable-list [service]="service" [column]="column" baseuri="redevables"></app-pageable-list>
+    </div>
+</div>

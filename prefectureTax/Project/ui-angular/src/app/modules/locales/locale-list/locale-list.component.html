@@ -1,0 +1,12 @@
+
+<div class="row">
+    <div class="col-6 mt-5">
+        <div class="card">
+            <app-locale-form></app-locale-form>
+        </div>
+    </div>
+    <div class="col-6">
+         <h1 class="mt-5 mb-5">Liste des Locaux</h1>
+         <app-pageable-list [service]="service" [column]="column" baseuri="locales"></app-pageable-list>
+    </div>
+  </div>

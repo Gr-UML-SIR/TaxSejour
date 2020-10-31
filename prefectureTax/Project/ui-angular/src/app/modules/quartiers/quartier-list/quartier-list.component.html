@@ -1,0 +1,13 @@
+
+<div class="row">
+    <div class="col-6 mt-5">
+        <div class="card">
+            <app-quartier-form></app-quartier-form>
+        </div>
+    </div>
+    <div class="col-6">
+        <h1 class="mt-5 mb-5">Liste des Quartiers</h1>
+        <app-pageable-list [service]="service" [column]="column" baseuri="quartiers"></app-pageable-list>
+    </div>
+</div>
+

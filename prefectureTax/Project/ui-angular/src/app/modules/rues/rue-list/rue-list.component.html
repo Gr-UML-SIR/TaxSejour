@@ -1,0 +1,14 @@
+
+
+<div class="row">
+    <div class="col-6 mt-4">
+        <div class='card'>
+          <app-rue-form></app-rue-form>
+        </div>
+    </div>
+    <div class="col-6">
+        <h1 class="mt-3 mb-5">Liste des Rues</h1>
+        <app-pageable-list [service]="service" [column]="column" baseuri="rues"></app-pageable-list>
+    </div>
+    
+</div>
